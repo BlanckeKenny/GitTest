@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="Kennismakking met GIT" HorizontalAlignment="Left" Margin="74,145,0,0" VerticalAlignment="Top" Height="63" Width="458"/>
+
     </Grid>
 </Window>
