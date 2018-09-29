@@ -5,9 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GitTest"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Label Content="Kennismakking met GIT" HorizontalAlignment="Left" Margin="74,145,0,0" VerticalAlignment="Top" Height="63" Width="458"/>
+        Title="MainWindow" Height="375.26" Width="404.498">
+    <Grid Margin="0,0,2,-21">
+        <Label x:Name="LblBericht" Content="Werken met Git" HorizontalAlignment="Left" Margin="80,32,0,0" VerticalAlignment="Top" Height="25" Width="143"/>
+        <ListBox x:Name="LstBericht" HorizontalAlignment="Left" Height="176" Margin="80,110,0,0" VerticalAlignment="Top" Width="143"/>
+        <Button x:Name="BtnBericht" Content="Toon bericht" HorizontalAlignment="Left" Margin="80,62,0,0" VerticalAlignment="Top" Width="143" Click="BtnBericht_Click"/>
 
     </Grid>
 </Window>
