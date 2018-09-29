@@ -9,7 +9,7 @@
     <Grid Margin="0,0,2,-21">
         <Label x:Name="LblBericht" Content="Werken met Git" HorizontalAlignment="Left" Margin="80,32,0,0" VerticalAlignment="Top" Height="25" Width="143"/>
         <ListBox x:Name="LstBericht" HorizontalAlignment="Left" Height="176" Margin="80,110,0,0" VerticalAlignment="Top" Width="143"/>
-        <Button x:Name="BtnBericht" Content="Toon bericht" HorizontalAlignment="Left" Margin="80,62,0,0" VerticalAlignment="Top" Width="143" Click="BtnBericht_Click"/>
+        <Button x:Name="BtnBericht" Content="Toon bericht" HorizontalAlignment="Left" Margin="80,62,0,0" VerticalAlignment="Top" Width="143" Click="BtnBericht_Click" Background="#FF6FF025"/>
 
     </Grid>
 </Window>

@@ -27,9 +27,10 @@ namespace GitTest
 
         private void BtnBericht_Click(object sender, RoutedEventArgs e)
         {
-            LstBericht.Items.Add("Welkom!");
-            LstBericht.Items.Add("Welcome");
-            LstBericht.Items.Add("Bienvenue");
+            LstBericht.Items.Add("Welkom!!");
+            LstBericht.Items.Add("Welcome!!");
+            LstBericht.Items.Add("Bienvenue!!");
+            LstBericht.Items.Add("Wilkommen!!");
         }
     }
 }
